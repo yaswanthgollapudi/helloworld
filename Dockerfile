@@ -1,4 +1,5 @@
 From openjdk:17
 workdir /yaswanth
-copy hellowold.class
-cmd java hellowold.java
+copy HelloWorld.class /yaswanth
+run javac HelloWrold.java
+cmd["java","HelloWorld"]
